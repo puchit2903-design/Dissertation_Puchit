@@ -1,0 +1,147 @@
+name_key,player_name,in_ballondor,consensus_count,bdor_club,bdor_nationality
+ousmane dembele,Ousmane Dembélé,True,3,Paris Saint-Germain,France
+lamine yamal,Lamine Yamal,True,3,Barcelona,Spain
+vitinha,Vitinha,True,3,Paris Saint-Germain,Portugal
+mohamed salah,Mohamed Salah,True,3,Liverpool,Egypt
+raphinha,Raphinha,True,3,Barcelona,Brazil
+achraf hakimi,Achraf Hakimi,True,3,Paris Saint-Germain,Morocco
+kylian mbappe,Kylian Mbappé,True,3,Real Madrid,France
+cole palmer,Cole Palmer,True,3,Chelsea,England
+gianluigi donnarumma,Gianluigi Donnarumma,True,3,Paris Saint-Germain,Italy
+nuno mendes,Nuno Mendes,True,3,Paris Saint-Germain,Portugal
+pedri,Pedri,True,3,Barcelona,Spain
+khvicha kvaratskhelia,Khvicha Kvaratskhelia,True,3,Paris Saint-Germain,Georgia
+harry kane,Harry Kane,True,3,Bayern Munich,England
+desire doue,Désiré Doué,True,3,Paris Saint-Germain,France
+viktor gyokeres,Viktor Gyökeres,True,3,Sporting CP,Sweden
+vinicius junior,Vinícius Júnior,True,3,Real Madrid,Brazil
+robert lewandowski,Robert Lewandowski,True,3,Barcelona,Poland
+scott mctominay,Scott McTominay,True,3,Napoli,Scotland
+joao neves,João Neves,True,3,Paris Saint-Germain,Portugal
+lautaro martinez,Lautaro Martínez,True,3,Inter Milan,Argentina
+serhou guirassy,Serhou Guirassy,True,2,Borussia Dortmund,Guinea
+alexis mac allister,Alexis Mac Allister,True,3,Liverpool,Argentina
+jude bellingham,Jude Bellingham,True,3,Real Madrid,England
+fabian ruiz,Fabián Ruiz,True,3,Paris Saint-Germain,Spain
+denzel dumfries,Denzel Dumfries,True,3,Inter Milan,Netherlands
+erling haaland,Erling Haaland,True,3,Manchester City,Norway
+declan rice,Declan Rice,True,3,Arsenal,England
+virgil van dijk,Virgil van Dijk,True,3,Liverpool,Netherlands
+florian wirtz,Florian Wirtz,True,3,Bayer Leverkusen,Germany
+michael olise,Michael Olise,True,3,Bayern Munich,France
+bukayo saka,Bukayo Saka,False,3,,
+gabriel magalhaes,Gabriel Magalhães,False,3,,
+julian alvarez,Julián Álvarez,False,3,,
+william saliba,William Saliba,False,3,,
+jamal musiala,Jamal Musiala,False,3,,
+thibaut courtois,Thibaut Courtois,False,3,,
+luis diaz,Luis Díaz,False,3,,
+ryan gravenberch,Ryan Gravenberch,False,3,,
+joshua kimmich,Joshua Kimmich,False,3,,
+federico valverde,Federico Valverde,False,3,,
+marquinhos,Marquinhos,False,3,,
+lionel messi,Lionel Messi,False,3,,
+alisson,Alisson,False,3,,
+dominik szoboszlai,Dominik Szoboszlai,False,3,,
+alexander isak,Alexander Isak,False,3,,
+frenkie de jong,Frenkie de Jong,False,3,,
+bruno fernandes,Bruno Fernandes,False,3,,
+alessandro bastoni,Alessandro Bastoni,False,3,,
+david raya,David Raya,False,3,,
+jules kounde,Jules Koundé,False,3,,
+nicolo barella,Nicolò Barella,False,3,,
+bradley barcola,Bradley Barcola,False,3,,
+trent alexanderarnold,Trent Alexander-Arnold,False,3,,
+bruno guimaraes,Bruno Guimarães,False,3,,
+nico williams,Nico Williams,False,3,,
+yann sommer,Yann Sommer,False,3,,
+eberechi eze,Eberechi Eze,False,3,,
+bryan mbeumo,Bryan Mbeumo,False,3,,
+victor osimhen,Victor Osimhen,False,3,,
+pau cubarsi,Pau Cubarsí,False,3,,
+federico dimarco,Federico Dimarco,False,3,,
+rafael leao,Rafael Leão,False,3,,
+moises caicedo,Moisés Caicedo,False,2,,
+jurrien timber,Jurriën Timber,False,2,,
+martin degaard,Martin Ødegaard,False,2,,
+rodri,Rodri,False,2,,
+cristiano ronaldo,Cristiano Ronaldo,False,2,,
+alejandro balde,Alejandro Balde,False,2,,
+willian pacho,Willian Pacho,False,2,,
+alphonso davies,Alphonso Davies,False,2,,
+sandro tonali,Sandro Tonali,False,2,,
+rodrygo,Rodrygo,False,2,,
+mike maignan,Mike Maignan,False,2,,
+marcus thuram,Marcus Thuram,False,2,,
+martin zubimendi,Martín Zubimendi,False,2,,
+aurelien tchouameni,Aurélien Tchouaméni,False,2,,
+antoine semenyo,Antoine Semenyo,False,2,,
+josko gvardiol,Josko Gvardiol,False,2,,
+jan oblak,Jan Oblak,False,2,,
+alex grimaldo,Álex Grimaldo,False,2,,
+marc cucurella,Marc Cucurella,False,2,,
+antonio rudiger,Antonio Rüdiger,False,2,,
+ruben dias,Rúben Dias,False,2,,
+arda guler,Arda Güler,False,2,,
+emiliano martinez,Emiliano Martínez,False,2,,
+morgan rogers,Morgan Rogers,False,2,,
+hugo ekitike,Hugo Ekitiké,False,2,,
+jeremy doku,Jérémy Doku,False,2,,
+kenan yildiz,Kenan Yildiz,False,2,,
+nick woltemade,Nick Woltemade,False,2,,
+tijjani reijnders,Tijjani Reijnders,False,2,,
+dean huijsen,Dean Huijsen,False,2,,
+antoine griezmann,Antoine Griezmann,False,2,,
+joan garcia,Joan García,False,1,,
+enzo fernandez,Enzo Fernández,False,1,,
+hakan calhanoglu,Hakan Çalhanoğlu,False,1,,
+estevao,Estêvão,False,1,,
+phil foden,Phil Foden,False,1,,
+fermin lopez,Fermín López,False,1,,
+bernardo silva,Bernardo Silva,False,1,,
+kevin de bruyne,Kevin De Bruyne,False,1,,
+dani olmo,Dani Olmo,False,1,,
+joao pedro,João Pedro,False,1,,
+theo hernandez,Theo Hernández,False,1,,
+mikel oyarzabal,Mikel Oyarzabal,False,1,,
+daniel munoz,Daniel Muñoz,False,1,,
+andrefrank zambo anguissa,André-Frank Zambo Anguissa,False,1,,
+dani carvajal,Dani Carvajal,False,1,,
+granit xhaka,Granit Xhaka,False,1,,
+nico paz,Nico Paz,False,1,,
+reece james,Reece James,False,1,,
+giorgian de arrascaeta,Giorgian de Arrascaeta,False,1,,
+riccardo calafiori,Riccardo Calafiori,False,1,,
+mikel merino,Mikel Merino,False,1,,
+mile svilar,Mile Svilar,False,1,,
+milos kerkez,Miloš Kerkez,False,1,,
+tino livramento,Tino Livramento,False,1,,
+manuel neuer,Manuel Neuer,False,1,,
+mason greenwood,Mason Greenwood,False,1,,
+alvaro carreras,Álvaro Carreras,False,1,,
+micky van de ven,Micky van de Ven,False,1,,
+antony,Antony,False,1,,
+marcus rashford,Marcus Rashford,False,1,,
+mohammed kudus,Mohammed Kudus,False,1,,
+matz sels,Matz Sels,False,1,,
+unai simon,Unai Simón,False,1,,
+jeremie frimpong,Jeremie Frimpong,False,1,,
+murillo,Murillo,False,1,,
+ibrahima konate,Ibrahima Konaté,False,1,,
+rodrigo de paul,Rodrigo De Paul,False,1,,
+thiago almada,Thiago Almada,False,1,,
+oihan sancet,Oihan Sancet,False,1,,
+isco,Isco,False,1,,
+morgan gibbswhite,Morgan Gibbs-White,False,1,,
+xavi simons,Xavi Simons,False,1,,
+giuliano simeone,Giuliano Simeone,False,1,,
+christian pulisic,Christian Pulisic,False,1,,
+cody gakpo,Cody Gakpo,False,1,,
+ademola lookman,Ademola Lookman,False,1,,
+benjamin sesko,Benjamin Šeško,False,1,,
+kai havertz,Kai Havertz,False,1,,
+jonathan david,Jonathan David,False,1,,
+chris wood,Chris Wood,False,1,,
+matheus cunha,Matheus Cunha,False,1,,
+omar marmoush,Omar Marmoush,False,1,,
+mateo retegui,Mateo Retegui,False,1,,
