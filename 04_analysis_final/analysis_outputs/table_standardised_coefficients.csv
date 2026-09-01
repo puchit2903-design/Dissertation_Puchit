@@ -1,0 +1,43 @@
+model,n,predictor,B,SE,p,beta,model_R2,model_adjR2,model_F_p
+Baseline,141,C(position_group)[T.Forward],0.0261,0.344,0.9395,,0.471,0.439,0.0
+Baseline,141,C(position_group)[T.Goalkeeper],0.5385,0.453,0.2347,,0.471,0.439,0.0
+Baseline,141,C(position_group)[T.Midfielder],-0.0086,0.233,0.9707,,0.471,0.439,0.0
+Baseline,141,G_plus_A,0.0528,0.016,0.0013,0.371,0.471,0.439,0.0
+Baseline,141,minutes,-0.0002,0.0,0.2736,-0.099,0.471,0.439,0.0
+Baseline,141,team_league_position,-0.0037,0.041,0.9294,-0.009,0.471,0.439,0.0
+Baseline,141,ucl_stage_ord,-0.1027,0.064,0.1092,-0.177,0.471,0.439,0.0
+Baseline,141,log_club_ig,0.6068,0.078,0.0,0.711,0.471,0.439,0.0
+Final,129,C(position_group)[T.Forward],0.1683,0.317,0.5961,,0.638,0.614,0.0
+Final,129,C(position_group)[T.Midfielder],-0.3201,0.217,0.1405,,0.638,0.614,0.0
+Final,129,team_league_position,-0.0492,0.034,0.1482,-0.129,0.638,0.614,0.0
+Final,129,ucl_stage_ord,-0.135,0.048,0.0045,-0.238,0.638,0.614,0.0
+Final,129,log_club_ig,0.5451,0.068,0.0,0.648,0.638,0.614,0.0
+Final,129,key_passes,0.5431,0.17,0.0014,0.252,0.638,0.614,0.0
+Final,129,long_balls,0.306,0.084,0.0003,0.282,0.638,0.614,0.0
+Final,129,shots_pg,0.3745,0.136,0.0057,0.3,0.638,0.614,0.0
+Position: forwards,47,log_club_ig,0.5159,0.083,0.0,0.55,0.622,0.586,0.0
+Position: forwards,47,key_passes,0.7459,0.303,0.0139,0.247,0.622,0.586,0.0
+Position: forwards,47,shots_pg,0.6123,0.214,0.0042,0.347,0.622,0.586,0.0
+Position: forwards,47,fouled,-0.377,0.334,0.2588,-0.118,0.622,0.586,0.0
+Position: midfielders,49,G_plus_A,-0.0349,0.032,0.2783,-0.151,0.64,0.607,0.0
+Position: midfielders,49,log_club_ig,0.4749,0.088,0.0,0.616,0.64,0.607,0.0
+Position: midfielders,49,key_passes,1.0475,0.287,0.0003,0.512,0.64,0.607,0.0
+Position: midfielders,49,fouled,0.4845,0.216,0.0251,0.227,0.64,0.607,0.0
+Position: defenders,33,G_plus_A,0.1948,0.06,0.0011,0.607,0.623,0.569,0.0
+Position: defenders,33,log_club_ig,0.4234,0.103,0.0,0.612,0.623,0.569,0.0
+Position: defenders,33,long_balls,0.3827,0.126,0.0024,0.488,0.623,0.569,0.0
+Position: defenders,33,crosses,-0.5274,0.289,0.0677,-0.28,0.623,0.569,0.0
+Trends-optimised,129,C(position_group)[T.Forward],0.2461,0.184,0.1803,,0.562,0.537,0.0
+Trends-optimised,129,C(position_group)[T.Midfielder],-0.07,0.144,0.6271,,0.562,0.537,0.0
+Trends-optimised,129,team_league_position,-0.0325,0.022,0.1389,-0.13,0.562,0.537,0.0
+Trends-optimised,129,ucl_stage_ord,-0.0739,0.036,0.0411,-0.198,0.562,0.537,0.0
+Trends-optimised,129,log_club_ig,0.258,0.045,0.0,0.467,0.562,0.537,0.0
+Trends-optimised,129,shots_pg,0.465,0.089,0.0,0.567,0.562,0.537,0.0
+Trends-optimised,129,long_balls,0.1298,0.053,0.0149,0.182,0.562,0.537,0.0
+Engagement rate,124,C(position_group)[T.Forward],-0.1479,0.262,0.5728,,0.109,0.055,0.0049
+Engagement rate,124,C(position_group)[T.Midfielder],-0.0692,0.172,0.6874,,0.109,0.055,0.0049
+Engagement rate,124,G_plus_A,-0.0036,0.012,0.7576,-0.043,0.109,0.055,0.0049
+Engagement rate,124,team_league_position,0.042,0.024,0.0845,0.195,0.109,0.055,0.0049
+Engagement rate,124,ucl_stage_ord,0.1053,0.037,0.0045,0.318,0.109,0.055,0.0049
+Engagement rate,124,log_club_ig,-0.0726,0.058,0.2079,-0.149,0.109,0.055,0.0049
+Engagement rate,124,passes_pg,-0.0109,0.004,0.007,-0.264,0.109,0.055,0.0049

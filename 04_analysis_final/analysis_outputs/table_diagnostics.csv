@@ -1,0 +1,11 @@
+model,test,stat,p_or_note
+Baseline,Jarque-Bera,3.667,0.1598
+Baseline,Breusch-Pagan,19.844,0.0109
+Baseline,Durbin-Watson,2.157,
+Baseline,Max |std residual|,3.31,
+Baseline,Cooks>4/n,10.0,>0.028
+Follower final,Jarque-Bera,0.058,0.9714
+Follower final,Breusch-Pagan,15.515,0.0499
+Follower final,Durbin-Watson,2.062,
+Follower final,Max |std residual|,2.78,
+Follower final,Cooks>4/n,9.0,>0.031

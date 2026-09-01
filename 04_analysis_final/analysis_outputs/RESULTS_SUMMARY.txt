@@ -1,0 +1,12 @@
+DISSERTATION ANALYSIS — SUMMARY
+========================================
+Players: 141
+
+FOLLOWER FINAL MODEL (CV-selected, outfield): n=129  R2=0.638  adjR2=0.614  — headline specification
+Baseline model (pre-specified, all players): R2=0.471 (adj 0.439; HC3 inference)
+
+Attention by position (median followers):
+  Defender: n=34, median=3,476,229
+  Forward: n=48, median=6,240,660
+  Goalkeeper: n=12, median=2,668,147
+  Midfielder: n=50, median=5,411,144

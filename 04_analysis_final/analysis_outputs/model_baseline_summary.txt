@@ -1,0 +1,34 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:          log_attention   R-squared:                       0.471
+Model:                            OLS   Adj. R-squared:                  0.439
+Method:                 Least Squares   F-statistic:                     14.71
+Date:                Tue, 01 Sep 2026   Prob (F-statistic):           3.11e-15
+Time:                        09:40:40   Log-Likelihood:                -197.74
+No. Observations:                 141   AIC:                             413.5
+Df Residuals:                     132   BIC:                             440.0
+Df Model:                           8                                         
+Covariance Type:            nonrobust                                         
+===================================================================================================
+                                      coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+Intercept                           5.3153      1.349      3.940      0.000       2.647       7.984
+C(position_group)[T.Forward]        0.0261      0.334      0.078      0.938      -0.635       0.688
+C(position_group)[T.Goalkeeper]     0.5385      0.366      1.470      0.144      -0.186       1.263
+C(position_group)[T.Midfielder]    -0.0086      0.252     -0.034      0.973      -0.507       0.490
+G_plus_A                            0.0528      0.015      3.574      0.000       0.024       0.082
+minutes                            -0.0002      0.000     -1.362      0.176      -0.001    9.64e-05
+team_league_position               -0.0037      0.034     -0.107      0.915      -0.071       0.064
+ucl_stage_ord                      -0.1027      0.053     -1.921      0.057      -0.208       0.003
+log_club_ig                         0.6068      0.075      8.108      0.000       0.459       0.755
+==============================================================================
+Omnibus:                        3.313   Durbin-Watson:                   2.157
+Prob(Omnibus):                  0.191   Jarque-Bera (JB):                3.667
+Skew:                           0.052   Prob(JB):                        0.160
+Kurtosis:                       3.783   Cond. No.                     3.92e+04
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 3.92e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.

@@ -1,0 +1,28 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:          log_attention   R-squared:                       0.640
+Model:                            OLS   Adj. R-squared:                  0.607
+Method:                 Least Squares   F-statistic:                     12.41
+Date:                Tue, 01 Sep 2026   Prob (F-statistic):           7.73e-07
+Time:                        09:40:41   Log-Likelihood:                -51.616
+No. Observations:                  49   AIC:                             113.2
+Df Residuals:                      44   BIC:                             122.7
+Df Model:                           4                                         
+Covariance Type:                  HC3                                         
+===============================================================================
+                  coef    std err          z      P>|z|      [0.025      0.975]
+-------------------------------------------------------------------------------
+Intercept       5.6940      1.620      3.515      0.000       2.519       8.869
+G_plus_A       -0.0349      0.032     -1.084      0.278      -0.098       0.028
+log_club_ig     0.4749      0.088      5.424      0.000       0.303       0.647
+key_passes      1.0475      0.287      3.645      0.000       0.484       1.611
+fouled          0.4845      0.216      2.240      0.025       0.060       0.909
+==============================================================================
+Omnibus:                        5.411   Durbin-Watson:                   2.326
+Prob(Omnibus):                  0.067   Jarque-Bera (JB):                2.101
+Skew:                          -0.040   Prob(JB):                        0.350
+Kurtosis:                       1.989   Cond. No.                         268.
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)

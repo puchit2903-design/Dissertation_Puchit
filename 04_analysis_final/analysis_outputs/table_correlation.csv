@@ -1,0 +1,7 @@
+,log_attention,G_plus_A,minutes,team_league_position,ucl_stage_ord,log_club_ig
+log_attention,1.0,0.261,-0.166,-0.35,0.255,0.576
+G_plus_A,0.261,1.0,0.071,-0.045,-0.129,-0.126
+minutes,-0.166,0.071,1.0,0.209,-0.254,-0.234
+team_league_position,-0.35,-0.045,0.209,1.0,-0.628,-0.592
+ucl_stage_ord,0.255,-0.129,-0.254,-0.628,1.0,0.626
+log_club_ig,0.576,-0.126,-0.234,-0.592,0.626,1.0

@@ -1,0 +1,53 @@
+sample,spec,predictors,k,n,SPV,R2,adjR2,CV_R2,significant
+all players,Baseline predictors,G_plus_A + team_league_position + ucl_stage_ord + log_club_ig + minutes,5,134,26.8,0.093,0.035,-0.056,ucl_stage_ord
+all players,Baseline without minutes,G_plus_A + team_league_position + ucl_stage_ord + log_club_ig,4,134,33.5,0.091,0.041,-0.048,ucl_stage_ord
+all players,Follower final predictors,team_league_position + ucl_stage_ord + log_club_ig + key_passes + long_balls + shots_pg,6,134,22.3,0.123,0.06,-0.13,ucl_stage_ord
+all players,Trends final predictors,team_league_position + ucl_stage_ord + log_club_ig + shots_pg + long_balls,5,134,26.8,0.113,0.057,-0.033,"ucl_stage_ord, long_balls"
+all players,Full specification,G_plus_A + team_league_position + ucl_stage_ord + log_club_ig + key_passes + shots_pg + dribbles + long_balls + tackles + interceptions,10,134,13.4,0.136,0.042,-0.189,ucl_stage_ord
+all players,Base + key passes,G_plus_A + team_league_position + ucl_stage_ord + log_club_ig + key_passes,5,134,26.8,0.108,0.051,-0.127,ucl_stage_ord
+all players,Base + shots,G_plus_A + team_league_position + ucl_stage_ord + log_club_ig + shots_pg,5,134,26.8,0.092,0.034,-0.049,ucl_stage_ord
+all players,Base + dribbles,G_plus_A + team_league_position + ucl_stage_ord + log_club_ig + dribbles,5,134,26.8,0.094,0.036,-0.07,ucl_stage_ord
+all players,Base + long balls,G_plus_A + team_league_position + ucl_stage_ord + log_club_ig + long_balls,5,134,26.8,0.113,0.056,-0.042,ucl_stage_ord
+all players,Base + fouled,G_plus_A + team_league_position + ucl_stage_ord + log_club_ig + fouled,5,134,26.8,0.092,0.034,-0.057,ucl_stage_ord
+all players,Base + crosses,G_plus_A + team_league_position + ucl_stage_ord + log_club_ig + crosses,5,134,26.8,0.102,0.044,-0.144,ucl_stage_ord
+all players,Base + tackles,G_plus_A + team_league_position + ucl_stage_ord + log_club_ig + tackles,5,134,26.8,0.092,0.034,-0.063,ucl_stage_ord
+all players,Base + interceptions,G_plus_A + team_league_position + ucl_stage_ord + log_club_ig + interceptions,5,134,26.8,0.092,0.033,-0.057,ucl_stage_ord
+all players,Base + passes,G_plus_A + team_league_position + ucl_stage_ord + log_club_ig + passes_pg,5,134,26.8,0.119,0.063,-0.035,"C(position_group)[T.Goalkeeper], ucl_stage_ord, passes_pg"
+all players,Base + pass accuracy,G_plus_A + team_league_position + ucl_stage_ord + log_club_ig + pass_pct,5,134,26.8,0.109,0.052,-0.058,"C(position_group)[T.Goalkeeper], ucl_stage_ord"
+all players,Base + goals per 90,G_plus_A + team_league_position + ucl_stage_ord + log_club_ig + goals_p90,5,134,26.8,0.093,0.035,-0.076,ucl_stage_ord
+all players,Base + shots and fouled,G_plus_A + team_league_position + ucl_stage_ord + log_club_ig + shots_pg + fouled,6,134,22.3,0.093,0.027,-0.059,ucl_stage_ord
+all players,Base + shots and crosses,G_plus_A + team_league_position + ucl_stage_ord + log_club_ig + shots_pg + crosses,6,134,22.3,0.102,0.037,-0.149,ucl_stage_ord
+all players,Base + shots and dribbles,G_plus_A + team_league_position + ucl_stage_ord + log_club_ig + shots_pg + dribbles,6,134,22.3,0.096,0.03,-0.076,ucl_stage_ord
+all players,Base + long balls and crosses,G_plus_A + team_league_position + ucl_stage_ord + log_club_ig + long_balls + crosses,6,134,22.3,0.121,0.057,-0.146,ucl_stage_ord
+all players,Base + shots and long balls,G_plus_A + team_league_position + ucl_stage_ord + log_club_ig + shots_pg + long_balls,6,134,22.3,0.114,0.049,-0.043,"ucl_stage_ord, long_balls"
+all players,"Base + shots, long balls and fouled",G_plus_A + team_league_position + ucl_stage_ord + log_club_ig + shots_pg + long_balls + fouled,7,134,19.1,0.114,0.042,-0.055,ucl_stage_ord
+all players,"Base + shots, long balls and crosses",G_plus_A + team_league_position + ucl_stage_ord + log_club_ig + shots_pg + long_balls + crosses,7,134,19.1,0.121,0.049,-0.15,ucl_stage_ord
+all players,"Base + shots, long balls and dribbles",G_plus_A + team_league_position + ucl_stage_ord + log_club_ig + shots_pg + long_balls + dribbles,7,134,19.1,0.116,0.044,-0.079,ucl_stage_ord
+all players,"Base + shots, long balls and key passes",G_plus_A + team_league_position + ucl_stage_ord + log_club_ig + shots_pg + long_balls + key_passes,7,134,19.1,0.124,0.053,-0.132,ucl_stage_ord
+all players,"Base + shots, long balls, tackles and interceptions",G_plus_A + team_league_position + ucl_stage_ord + log_club_ig + shots_pg + long_balls + tackles + interceptions,8,134,16.8,0.116,0.037,-0.071,ucl_stage_ord
+outfield only,Baseline predictors,G_plus_A + team_league_position + ucl_stage_ord + log_club_ig + minutes,5,124,24.8,0.069,0.013,-0.094,ucl_stage_ord
+outfield only,Baseline without minutes,G_plus_A + team_league_position + ucl_stage_ord + log_club_ig,4,124,31.0,0.069,0.022,-0.051,ucl_stage_ord
+outfield only,Follower final predictors,team_league_position + ucl_stage_ord + log_club_ig + key_passes + long_balls + shots_pg,6,124,20.7,0.116,0.055,-0.159,"team_league_position, ucl_stage_ord, long_balls"
+outfield only,Trends final predictors,team_league_position + ucl_stage_ord + log_club_ig + shots_pg + long_balls,5,124,24.8,0.106,0.052,-0.022,"ucl_stage_ord, long_balls"
+outfield only,Full specification,G_plus_A + team_league_position + ucl_stage_ord + log_club_ig + key_passes + shots_pg + dribbles + long_balls + tackles + interceptions,10,124,12.4,0.13,0.036,-0.209,ucl_stage_ord
+outfield only,Base + key passes,G_plus_A + team_league_position + ucl_stage_ord + log_club_ig + key_passes,5,124,24.8,0.089,0.034,-0.12,"team_league_position, ucl_stage_ord"
+outfield only,Base + shots,G_plus_A + team_league_position + ucl_stage_ord + log_club_ig + shots_pg,5,124,24.8,0.07,0.014,-0.074,ucl_stage_ord
+outfield only,Base + dribbles,G_plus_A + team_league_position + ucl_stage_ord + log_club_ig + dribbles,5,124,24.8,0.073,0.017,-0.054,ucl_stage_ord
+outfield only,Base + long balls,G_plus_A + team_league_position + ucl_stage_ord + log_club_ig + long_balls,5,124,24.8,0.105,0.051,-0.008,"ucl_stage_ord, long_balls"
+outfield only,Base + fouled,G_plus_A + team_league_position + ucl_stage_ord + log_club_ig + fouled,5,124,24.8,0.07,0.014,-0.074,ucl_stage_ord
+outfield only,Base + crosses,G_plus_A + team_league_position + ucl_stage_ord + log_club_ig + crosses,5,124,24.8,0.081,0.026,-0.089,"team_league_position, ucl_stage_ord"
+outfield only,Base + tackles,G_plus_A + team_league_position + ucl_stage_ord + log_club_ig + tackles,5,124,24.8,0.071,0.015,-0.06,ucl_stage_ord
+outfield only,Base + interceptions,G_plus_A + team_league_position + ucl_stage_ord + log_club_ig + interceptions,5,124,24.8,0.07,0.013,-0.054,ucl_stage_ord
+outfield only,Base + passes,G_plus_A + team_league_position + ucl_stage_ord + log_club_ig + passes_pg,5,124,24.8,0.109,0.055,-0.002,"ucl_stage_ord, passes_pg"
+outfield only,Base + pass accuracy,G_plus_A + team_league_position + ucl_stage_ord + log_club_ig + pass_pct,5,124,24.8,0.078,0.022,-0.059,ucl_stage_ord
+outfield only,Base + goals per 90,G_plus_A + team_league_position + ucl_stage_ord + log_club_ig + goals_p90,5,124,24.8,0.071,0.015,-0.074,ucl_stage_ord
+outfield only,Base + shots and fouled,G_plus_A + team_league_position + ucl_stage_ord + log_club_ig + shots_pg + fouled,6,124,20.7,0.071,0.006,-0.096,ucl_stage_ord
+outfield only,Base + shots and crosses,G_plus_A + team_league_position + ucl_stage_ord + log_club_ig + shots_pg + crosses,6,124,20.7,0.081,0.017,-0.13,ucl_stage_ord
+outfield only,Base + shots and dribbles,G_plus_A + team_league_position + ucl_stage_ord + log_club_ig + shots_pg + dribbles,6,124,20.7,0.075,0.01,-0.084,ucl_stage_ord
+outfield only,Base + long balls and crosses,G_plus_A + team_league_position + ucl_stage_ord + log_club_ig + long_balls + crosses,6,124,20.7,0.113,0.051,-0.058,"team_league_position, ucl_stage_ord, long_balls"
+outfield only,Base + shots and long balls,G_plus_A + team_league_position + ucl_stage_ord + log_club_ig + shots_pg + long_balls,6,124,20.7,0.106,0.044,-0.037,"ucl_stage_ord, long_balls"
+outfield only,"Base + shots, long balls and fouled",G_plus_A + team_league_position + ucl_stage_ord + log_club_ig + shots_pg + long_balls + fouled,7,124,17.7,0.106,0.036,-0.061,"ucl_stage_ord, long_balls"
+outfield only,"Base + shots, long balls and crosses",G_plus_A + team_league_position + ucl_stage_ord + log_club_ig + shots_pg + long_balls + crosses,7,124,17.7,0.114,0.044,-0.107,"team_league_position, ucl_stage_ord, long_balls"
+outfield only,"Base + shots, long balls and dribbles",G_plus_A + team_league_position + ucl_stage_ord + log_club_ig + shots_pg + long_balls + dribbles,7,124,17.7,0.108,0.037,-0.048,"ucl_stage_ord, long_balls"
+outfield only,"Base + shots, long balls and key passes",G_plus_A + team_league_position + ucl_stage_ord + log_club_ig + shots_pg + long_balls + key_passes,7,124,17.7,0.118,0.048,-0.17,"team_league_position, ucl_stage_ord, long_balls"
+outfield only,"Base + shots, long balls, tackles and interceptions",G_plus_A + team_league_position + ucl_stage_ord + log_club_ig + shots_pg + long_balls + tackles + interceptions,8,124,15.5,0.11,0.032,-0.059,"ucl_stage_ord, long_balls"

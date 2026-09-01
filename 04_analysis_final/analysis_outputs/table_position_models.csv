@@ -1,0 +1,5 @@
+position,n,k,SPV,R2,adjR2,significant,note
+Defender,33,4.0,8.2,0.623,0.569,"G_plus_A, log_club_ig, long_balls",
+Forward,47,4.0,11.8,0.622,0.586,"log_club_ig, key_passes, shots_pg",
+Goalkeeper,12,,,,,,too small — descriptive only
+Midfielder,49,4.0,12.2,0.64,0.607,"log_club_ig, key_passes, fouled",

@@ -1,0 +1,32 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:          log_attention   R-squared:                       0.638
+Model:                            OLS   Adj. R-squared:                  0.614
+Method:                 Least Squares   F-statistic:                     18.55
+Date:                Tue, 01 Sep 2026   Prob (F-statistic):           7.38e-18
+Time:                        09:40:40   Log-Likelihood:                -154.28
+No. Observations:                 129   AIC:                             326.6
+Df Residuals:                     120   BIC:                             352.3
+Df Model:                           8                                         
+Covariance Type:                  HC3                                         
+===================================================================================================
+                                      coef    std err          z      P>|z|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+Intercept                           5.0658      1.260      4.020      0.000       2.596       7.535
+C(position_group)[T.Forward]        0.1683      0.317      0.530      0.596      -0.454       0.791
+C(position_group)[T.Midfielder]    -0.3201      0.217     -1.474      0.140      -0.746       0.106
+team_league_position               -0.0492      0.034     -1.446      0.148      -0.116       0.018
+ucl_stage_ord                      -0.1350      0.048     -2.841      0.005      -0.228      -0.042
+log_club_ig                         0.5451      0.068      8.070      0.000       0.413       0.678
+key_passes                          0.5431      0.170      3.200      0.001       0.211       0.876
+long_balls                          0.3060      0.084      3.654      0.000       0.142       0.470
+shots_pg                            0.3745      0.136      2.763      0.006       0.109       0.640
+==============================================================================
+Omnibus:                        0.029   Durbin-Watson:                   2.062
+Prob(Omnibus):                  0.985   Jarque-Bera (JB):                0.058
+Skew:                          -0.031   Prob(JB):                        0.971
+Kurtosis:                       2.917   Cond. No.                         255.
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)

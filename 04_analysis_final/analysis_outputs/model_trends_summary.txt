@@ -1,0 +1,34 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             log_trends   R-squared:                       0.459
+Model:                            OLS   Adj. R-squared:                  0.426
+Method:                 Least Squares   F-statistic:                     7.190
+Date:                Tue, 01 Sep 2026   Prob (F-statistic):           6.98e-08
+Time:                        09:40:41   Log-Likelihood:                -136.71
+No. Observations:                 141   AIC:                             291.4
+Df Residuals:                     132   BIC:                             318.0
+Df Model:                           8                                         
+Covariance Type:                  HC3                                         
+===================================================================================================
+                                      coef    std err          z      P>|z|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------
+Intercept                          -4.0346      0.944     -4.274      0.000      -5.885      -2.184
+C(position_group)[T.Forward]        0.3207      0.249      1.289      0.197      -0.167       0.808
+C(position_group)[T.Goalkeeper]     0.4972      0.245      2.031      0.042       0.017       0.977
+C(position_group)[T.Midfielder]     0.0258      0.168      0.154      0.878      -0.303       0.355
+G_plus_A                            0.0406      0.015      2.783      0.005       0.012       0.069
+minutes                            -0.0002      0.000     -1.354      0.176      -0.000    7.58e-05
+team_league_position               -0.0127      0.023     -0.550      0.582      -0.058       0.033
+ucl_stage_ord                      -0.0781      0.044     -1.757      0.079      -0.165       0.009
+log_club_ig                         0.2957      0.051      5.791      0.000       0.196       0.396
+==============================================================================
+Omnibus:                       10.426   Durbin-Watson:                   2.023
+Prob(Omnibus):                  0.005   Jarque-Bera (JB):               12.164
+Skew:                           0.495   Prob(JB):                      0.00228
+Kurtosis:                       4.044   Cond. No.                     3.92e+04
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)
+[2] The condition number is large, 3.92e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.
